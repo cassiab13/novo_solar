@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex-basis: 35%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.photo-column {
+    background-image: url('sua_foto.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    flex-basis: 10%; /* Reduz o tamanho da coluna da foto */
+}
+
+.technical-column {
+    background-color: #333;
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.buy-button-column {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+.buy-button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
